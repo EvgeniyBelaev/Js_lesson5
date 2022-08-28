@@ -1,0 +1,20 @@
+.body {
+    max-width: 100%;
+    background-color: rgb(201, 199, 199);
+    }
+.gallery {
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.carousel {
+    display: flex;
+    gap: 10px;
+}
+.small-img {
+    width: 180px;
+    height: 130px;
+}

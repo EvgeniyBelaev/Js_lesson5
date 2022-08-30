@@ -1,0 +1,41 @@
+.body {
+    max-width: 1500px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.chess {
+    width: 650px;
+    height: 650px;
+    border: 1px solid black;
+}
+.letter {
+    margin: 10px 0 10px 70px;
+    display: flex;
+    gap: 63px;
+}
+.digit {
+    margin: 0 10px 0 10px;
+}
+.squares {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 15px;   
+    
+}
+.one-string {
+    display: flex;
+    align-items: center;
+}
+.black-scuares {
+    width: 70px;
+    height: 70px;
+    background-color: black;
+}
+.white-scuares {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(181, 180, 180);
+}

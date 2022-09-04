@@ -10,7 +10,27 @@
     justify-content: center;
     gap: 20px;
 }
+.big-count {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.btn {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: rgb(201, 199, 199);
+}
+.arrow {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 199, 199);
+    border: none;
+}
 .carousel {
     display: flex;
     gap: 10px;
+}
+.cursor {
+    cursor: pointer;
 }
